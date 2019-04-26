@@ -5,3 +5,17 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+ul {
+  font-family: 'Poppins';
+  width: 50%;
+  margin: auto;
+  list-style-type: none;
+  word-wrap: break-word;
+}
+
+li {
+  background-color: rgba(206, 227, 234, 0.7);
+  padding: 10px;
+  margin: 20px;
+}

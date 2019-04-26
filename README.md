@@ -26,11 +26,21 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+Today, web applications are huge, complex pieces of software that millions and millions of users interact with simultaneously. React solves the problem of providing a smooth experience for our users, as well as those developing applications.  So instead of refreshing entire web page, only the new data gets refreshed, saving time and better user experience.  React solves this problem, without even having the page reload. It does by a concept called virtual DOM.
+
 - [ ] What does it mean to _think_ in react?
+
+ It means to think in components/component hierarchies. For example, looking at a webpage, and recognizing the navigation is a component, and the links on it to other pages, search bar, and logo are in it's component hierarchy.
 
 - [ ] Describe state.
 
+ State is the data that our components will have access to. And when we pass that state around, we call it props. State is a fancy term for data that we have available in our application. You can think of state as the data your components need, and the ability your components have to update/access data that would need to be displayed by the component itself. State drives our applications.
+
 - [ ] Describe props.
+
+If a component holds it’s own state, and needs to give that state data to another component, we pass that state around as Props.  Props stands for properties. When we give a component some ‘attribute-looking’ data on our JSX, props are immutable (or Read only) meaning we cannot mutate props in any fashion. We simple receive them in our components and use them to display data to the user.
+
+
 
 ## Project Set Up
 
